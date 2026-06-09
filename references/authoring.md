@@ -129,10 +129,14 @@ One chart on the left (drawn as SVG by the engine), a legend on the right. There
 ### Two panels — `slide--split` with `.panel`
 Side-by-side boxed comparison.
 ```html
-<div class="body">
-  <div class="col panel"><h3>Option A</h3><p>Self-contained idea.</p></div>
-  <div class="col panel"><h3>Option B</h3><p>Parallel structure.</p></div>
-</div>
+<section class="slide slide--split">
+  <div class="eyebrow">Comparison</div>
+  <h2 class="deck-title">Two distinct options.</h2>
+  <div class="body">
+    <div class="col panel"><h3>Option A</h3><p>Self-contained idea.</p></div>
+    <div class="col panel"><h3>Option B</h3><p>Parallel structure.</p></div>
+  </div>
+</section>
 ```
 
 ### Dark — add `slide--dark`
